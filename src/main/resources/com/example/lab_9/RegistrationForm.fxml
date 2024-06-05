@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="500.0" style="-fx-background-color: silver;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab_9.Controllers.RegistrationController">
+   <children>
+      <PasswordField fx:id="passwordField" focusTraversable="false" layoutX="110.0" layoutY="440.0" prefHeight="51.0" prefWidth="280.0" promptText="Password" style="-fx-background-radius: 20;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="143.0" layoutY="86.0" text="Sign Up">
+         <font>
+            <Font name="Unispace-Bold" size="50.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameField" focusTraversable="false" layoutX="111.0" layoutY="227.0" prefHeight="51.0" prefWidth="280.0" promptText="Name" style="-fx-background-radius: 20;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="surnameField" focusTraversable="false" layoutX="111.0" layoutY="299.0" prefHeight="51.0" prefWidth="280.0" promptText="Surname" style="-fx-background-radius: 20;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="loginField" focusTraversable="false" layoutX="111.0" layoutY="369.0" prefHeight="51.0" prefWidth="280.0" promptText="Login" style="-fx-background-radius: 20;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Button fx:id="confirmButton" focusTraversable="false" layoutX="178.0" layoutY="551.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="145.0" style="-fx-background-radius: 7;" text="Confirm">
+         <font>
+            <Font name="Arial Bold" size="26.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

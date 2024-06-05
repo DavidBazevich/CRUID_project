@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: silver;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab_9.Controllers.NotesListController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="200.0" style="-fx-background-color: blue;">
+         <children>
+            <Button fx:id="signOutButton" layoutX="24.0" layoutY="523.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="152.0" style="-fx-background-color: red; -fx-background-radius: 10;" text="SIGN OUT" textFill="WHITE">
+               <font>
+                  <Font name="Unispace-Bold" size="24.0" />
+               </font>
+            </Button>
+            <Label fx:id="nameField" layoutX="16.0" layoutY="43.0" prefHeight="36.0" prefWidth="174.0" textFill="WHITE">
+               <font>
+                  <Font name="Book Antiqua" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="surnameField" layoutX="16.0" layoutY="79.0" prefHeight="28.0" prefWidth="174.0" textFill="WHITE">
+               <font>
+                  <Font name="Book Antiqua" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="saveButton" layoutX="586.0" layoutY="514.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="88.0" style="-fx-background-radius: 15;" text="SAVE">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Button fx:id="addButton" layoutX="480.0" layoutY="514.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="88.0" style="-fx-background-radius: 15;" text="ADD">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Label fx:id="nameNote" alignment="CENTER" layoutX="479.0" layoutY="17.0" prefHeight="100.0" prefWidth="300.0" text="Name_note" textFill="BLUE">
+         <font>
+            <Font name="Book Antiqua Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textNote" layoutX="480.0" layoutY="138.0" prefHeight="324.0" prefWidth="300.0" />
+      <Button fx:id="deleteButton" layoutX="691.0" layoutY="514.0" mnemonicParsing="false" style="-fx-background-radius: 15;" text="DELETE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <ListView fx:id="listArea" editable="true" fixedCellSize="40.0" layoutX="200.0" prefHeight="600.0" prefWidth="266.0" />
+   </children>
+</AnchorPane>
